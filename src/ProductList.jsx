@@ -231,7 +231,8 @@ function ProductList({ onHomeClick }) {
         justifyContent: 'space-between',
         alignIems: 'center',
         fontSize: '20px',
-        marginBottom: "20px"
+        marginBottom: "20px",
+        gap: "50px"
     }
     const styleObjUl = {
         display: 'flex',
