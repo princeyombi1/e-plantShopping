@@ -47,6 +47,10 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.product-category{
+    text-align: center;
+}
 .product-list {
     display: flex;
     flex-wrap: wrap;
@@ -97,14 +101,18 @@ body {
     height: 200px; /* Adjust height for better consistency */
 }
 
-.product-button {
-    background-color: #e74c3c;
+button.product-button {
+    background-color: #45a049;
     color: #fff;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     margin-top: 10px;
+}
+button.disabled, button.disabled:hover{
+    background-color: grey;
+    cursor: not-allowed;
 }
 
 .product-button:hover {
